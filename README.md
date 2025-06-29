@@ -39,10 +39,11 @@ A Modern Portfolio Theory (MPT) implementation with Monte Carlo simulation, effi
    ```
 
 2. Create virtual environment:
-   conda activate -p venv python==3.12
-   source venv/bin/activate # Linux/Mac
-   venv\Scripts\activate # Windows
+```
 
+   conda activate -p venv python==3.12
+   conda activate venv/
+```
 3. Install dependencies:
 
 ```
