@@ -99,7 +99,7 @@ python src/cli.py backtest --tickers AAPL MSFT --amount 5000 --start-date 2015-0
 ![Image](https://github.com/user-attachments/assets/d56be76c-7043-410f-a6f9-dbf48b8a738c)
 
 ## Project Structure
-
+```
 portfolio-optimizer/
 ├── backtest_results/ # Backtesting outputs (CSV/plots)
 ├── backtest_results.pdf # Sample backtest report
@@ -124,28 +124,12 @@ portfolio-optimizer/
 ├── .gitignore # Git exclusion rules
 ├── README.md # This document
 └── requirements.txt # Python dependencies
-
+```
 ## Development
 
 ### Run tests:
 
 ```
 pytest tests/
-
 ```
 
-### License
-
-Key features of this README:
-
-1. **Clear Visual Hierarchy** - Section headers and badges for quick scanning
-2. **Complete Usage Examples** - Ready-to-run commands for all features
-3. **Structured Reference** - Organized tables for CLI arguments
-4. **Visual Project Map** - Directory structure visualization
-5. **Development Ready** - Includes testing and contribution guidelines
-
-Would you like me to add any additional sections such as:
-
-- Performance benchmarks
-- Troubleshooting guide
-- Roadmap of planned features?
